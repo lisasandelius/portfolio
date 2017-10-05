@@ -1,0 +1,30 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Contact page</title>
+<link href="style-til-portfolio.css" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+<nav> 
+<center>
+<ul id="navigation">
+<a href="index.html">Hjem</a>          
+<a href="om-mig.html">Om mig</a>          
+<a href="projekter">Projekter</a>          
+<a href="contact.html">Kontakt</a>           
+  </ul>
+  </center>
+	</nav>
+	<div class="mail">
+<h1>Contact me</h1>
+<form action="mailto:lisa_sandelius@hotmail.com?subject=sending my form" method="post" enctype="text/plain">
+<!--Constraint validation af et web form med attributerne "required" og type-->
+	<p><input name="name" type="text" placeholder="Your name..." required></p>
+	<p><input name="mail" type="email" placeholder="Your mail address" required></p>
+	<p><textarea name="message" placeholder="Your message..."></textarea></p>
+	<p><input name="submit" type="submit" value="Submit yourself"></p>
+</form>
+</body>
+</html>
